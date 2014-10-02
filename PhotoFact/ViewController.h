@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class Facts;
 
+@interface ViewController : UIViewController
+- (IBAction)nextFactButton;
+
+@property (strong, nonatomic) IBOutlet UILabel *FactLabel;
 
 @end
 

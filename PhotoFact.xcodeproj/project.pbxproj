@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43290AD919DDA5D70021AE85 /* Facts.m in Sources */ = {isa = PBXBuildFile; fileRef = 43290AD819DDA5D70021AE85 /* Facts.m */; };
 		4377307919DB55F9000C7F2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4377307819DB55F9000C7F2C /* main.m */; };
 		4377307C19DB55F9000C7F2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4377307B19DB55F9000C7F2C /* AppDelegate.m */; };
 		4377307F19DB55F9000C7F2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4377307E19DB55F9000C7F2C /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43290AD719DDA5D70021AE85 /* Facts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facts.h; sourceTree = "<group>"; };
+		43290AD819DDA5D70021AE85 /* Facts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facts.m; sourceTree = "<group>"; };
 		4377307319DB55F9000C7F2C /* PhotoFact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4377307719DB55F9000C7F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4377307819DB55F9000C7F2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,14 +84,14 @@
 		4377307519DB55F9000C7F2C /* PhotoFact */ = {
 			isa = PBXGroup;
 			children = (
-				4377307A19DB55F9000C7F2C /* AppDelegate.h */,
-				4377307B19DB55F9000C7F2C /* AppDelegate.m */,
 				4377307D19DB55F9000C7F2C /* ViewController.h */,
 				4377307E19DB55F9000C7F2C /* ViewController.m */,
 				4377308019DB55F9000C7F2C /* Main.storyboard */,
 				4377308319DB55F9000C7F2C /* Images.xcassets */,
 				4377308519DB55F9000C7F2C /* LaunchScreen.xib */,
 				4377307619DB55F9000C7F2C /* Supporting Files */,
+				43290AD719DDA5D70021AE85 /* Facts.h */,
+				43290AD819DDA5D70021AE85 /* Facts.m */,
 			);
 			path = PhotoFact;
 			sourceTree = "<group>";
@@ -96,6 +99,8 @@
 		4377307619DB55F9000C7F2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4377307A19DB55F9000C7F2C /* AppDelegate.h */,
+				4377307B19DB55F9000C7F2C /* AppDelegate.m */,
 				4377307719DB55F9000C7F2C /* Info.plist */,
 				4377307819DB55F9000C7F2C /* main.m */,
 			);
@@ -222,6 +227,7 @@
 				4377307F19DB55F9000C7F2C /* ViewController.m in Sources */,
 				4377307C19DB55F9000C7F2C /* AppDelegate.m in Sources */,
 				4377307919DB55F9000C7F2C /* main.m in Sources */,
+				43290AD919DDA5D70021AE85 /* Facts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 				4377309819DB55F9000C7F2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4377309919DB55F9000C7F2C /* Build configuration list for PBXNativeTarget "PhotoFactTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				4377309B19DB55F9000C7F2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
