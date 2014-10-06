@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43016E5F19E328EC00869ED8 /* Photos.m in Sources */ = {isa = PBXBuildFile; fileRef = 43016E5E19E328EC00869ED8 /* Photos.m */; };
 		43290AD919DDA5D70021AE85 /* Facts.m in Sources */ = {isa = PBXBuildFile; fileRef = 43290AD819DDA5D70021AE85 /* Facts.m */; };
 		4377307919DB55F9000C7F2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4377307819DB55F9000C7F2C /* main.m */; };
 		4377307C19DB55F9000C7F2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4377307B19DB55F9000C7F2C /* AppDelegate.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43016E5D19E328EC00869ED8 /* Photos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photos.h; sourceTree = "<group>"; };
+		43016E5E19E328EC00869ED8 /* Photos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photos.m; sourceTree = "<group>"; };
 		43290AD719DDA5D70021AE85 /* Facts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facts.h; sourceTree = "<group>"; };
 		43290AD819DDA5D70021AE85 /* Facts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facts.m; sourceTree = "<group>"; };
 		4377307319DB55F9000C7F2C /* PhotoFact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFact.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +95,8 @@
 				4377307619DB55F9000C7F2C /* Supporting Files */,
 				43290AD719DDA5D70021AE85 /* Facts.h */,
 				43290AD819DDA5D70021AE85 /* Facts.m */,
+				43016E5D19E328EC00869ED8 /* Photos.h */,
+				43016E5E19E328EC00869ED8 /* Photos.m */,
 			);
 			path = PhotoFact;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			files = (
 				4377307F19DB55F9000C7F2C /* ViewController.m in Sources */,
 				4377307C19DB55F9000C7F2C /* AppDelegate.m in Sources */,
+				43016E5F19E328EC00869ED8 /* Photos.m in Sources */,
 				4377307919DB55F9000C7F2C /* main.m in Sources */,
 				43290AD919DDA5D70021AE85 /* Facts.m in Sources */,
 			);
