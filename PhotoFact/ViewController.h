@@ -9,9 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @class Facts;
+@class Photos;
+
 
 @interface ViewController : UIViewController
 - (IBAction)nextFactButton;
+
+
 
 @property (strong, nonatomic) IBOutlet UILabel *FactLabel;
 

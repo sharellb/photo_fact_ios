@@ -18,6 +18,7 @@
         Facts *newFact = [[Facts alloc] init];
         
         newFact.info = fact[@"info"];
+        newFact.category_id = fact[@"category_id"];
         
         [factModels addObject:newFact];
     }

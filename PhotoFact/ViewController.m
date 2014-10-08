@@ -11,6 +11,7 @@
 #import "Photos.h"
 
 
+
 @interface ViewController ()
 @property (nonatomic, strong) NSArray *facts;
 @property (nonatomic, strong) NSArray *photos;
@@ -22,16 +23,18 @@
     [super viewDidLoad];
 }
 
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+
+
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
     
-   
     NSURL *factUrl = [NSURL URLWithString:@"http://sheltered-coast-4961.herokuapp.com/facts.json"];
     NSURLRequest *factUrlRequest = [NSURLRequest requestWithURL:factUrl];
     [NSURLConnection sendAsynchronousRequest:factUrlRequest
@@ -42,12 +45,13 @@
                                    return;
                                }
                                NSArray *factjsonArray = [NSJSONSerialization JSONObjectWithData:data
-                                                                                    options:0
-                                                                                      error:nil];
+                                                                                        options:0
+                                                                                          error:nil];
                                
                                self.facts = [Facts factsFromJSON:factjsonArray];
-                         
+                               
                            }];
+    
     
     NSURL *photoUrl = [NSURL URLWithString:@"http://sheltered-coast-4961.herokuapp.com/photos.json"];
     NSURLRequest *photoUrlRequest = [NSURLRequest requestWithURL:photoUrl];
@@ -59,13 +63,16 @@
                                    return;
                                }
                                NSArray *photojsonArray = [NSJSONSerialization JSONObjectWithData:data
-                                                                                    options:0
-                                                                                      error:nil];
+                                                                                         options:0
+                                                                                           error:nil];
                                
                                self.photos = [Photos photosFromJSON:photojsonArray];
                                
                            }];
+
 }
+
+
 
 
 - (IBAction)nextFactButton {
@@ -77,6 +84,7 @@
     UIImage *image = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:photo.image]]];
     self.view.backgroundColor=[UIColor colorWithPatternImage: image];
     
-    
+
 }
+
 @end

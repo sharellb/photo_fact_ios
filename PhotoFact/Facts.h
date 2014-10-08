@@ -11,6 +11,7 @@
 @interface Facts : NSObject
 
 @property (nonatomic, strong)NSString *info;
+@property (nonatomic, strong)NSString *category_id;
 
 + (NSArray *)factsFromJSON: (NSArray *)facts;
 
